@@ -1,0 +1,159 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.logo_pepsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 45px;
+  padding-right: 12px;
+}
+
+.logo_lyric {
+  width: 90px;
+}
+
+.ul_list {
+  display: flex;
+}
+
+.menu_list {
+  list-style: none;
+  padding: 25px;
+}
+
+.menu_list:hover {
+  text-decoration: underline;
+}
+
+.a_menu {
+  text-decoration: none;
+}
+
+.menu_buy {
+  border-radius: 15px;
+  border: solid 1px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+.menu_buy:hover {
+  background: white;
+  color: rgb(34, 52, 122);
+  font-weight: 500;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  height: calc(100vh - 70px);
+  margin-top: 80px;
+}
+
+.arrow_left {
+  padding-top: 15px;
+  width: 10%;
+  padding-left: 25px;
+}
+
+.info {
+  margin-left: 25px;
+  width: 45%;
+}
+
+.h1_main {
+  font-size: 50px;
+}
+
+.p_main {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.h3_main {
+  margin-bottom: 10px;
+}
+
+.container-nutrition {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+}
+
+.info_nutrition>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 25px;
+}
+
+.info_nutrition {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 100px;
+  background-color: #2d4c97;
+}
+
+.buy_now {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: solid 1px white;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buy_now:hover {
+  background-color: white;
+  color: #2d4c97;
+}
+
+.colornew {
+  background-color: #3b67b8fc;
+}
+
+.image {
+  width: 35%;
+}
+
+.pepsi_main {
+  margin: 35px;
+  filter: drop-shadow(20px 80px 80px rgb(39, 39, 39));
+}
+
+.bottle_img {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.arrow_rigth {
+  padding-top: 15px;
+  width: 10%;
+}
+
+.font_main {
+  font-size: 12px;
+}
+
+.fa-arrow-right {
+  padding-left: 5px;
+}
+
+p {
+  color: #778dc1;
+}
